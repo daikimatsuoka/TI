@@ -1,0 +1,8 @@
+hash = {"one" => 1, "two" => 2, "three" => 3}
+puts hash.keys
+puts hash.values
+
+# ハッシュの基本
+  ハッシュは以下の形で記載
+   hash = { "key" => value, "key2" => value2 }
+  hash = { key: value, key2: value2 }
