@@ -16,3 +16,4 @@ class Main {
 ```
 ## 比較演算子
 rubyと同様の使い方
+出力結果は　true or false
