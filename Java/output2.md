@@ -29,5 +29,22 @@ class Main {
 }
 ```
 ## 型推論
+var型を使って変数を定義することで値の種類によってデータの型が推論され、推論された型で変数が定義される。
+```java
+import java.util.ArrayList;
+
+class Main {
+  public static void main(String[] args) {
+    var radius = 5;
+    //宣言と同時に初期値を代入する場合は省略が可能
+    System.out.println(radius * radius * 3.14); 
+
+    System.out.println(((Object)radius).getClass().getSimpleName());
+    //このコードで推論された型を確認できる
+  }
+}
+
+```
+
 
 
