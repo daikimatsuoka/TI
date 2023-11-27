@@ -27,5 +27,7 @@ class Main {
     System.out.println(radius * radius * 3.14); 
   }
 }
+```
+## 型推論
 
 
