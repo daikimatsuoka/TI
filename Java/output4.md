@@ -1,7 +1,7 @@
 # javaの配列
 ## rubyとの違い
 javaの配列はrubyの配列とは異なり、最初に決めた要素数が変更できない。(要素数は最初に決めなければならない)
-
+## 記述方法
 ```java
 import java.util.ArrayList;
 
@@ -19,4 +19,18 @@ class Main {
     System.out.println(scores[2]);
   }
 }
+```
+## 様々な配列の記述方法
+### 宣言と代入は同時に行うことが可能
+```java
+int[] scores = new int[3];
+```
+### 型推論による宣言も可能
+```java
+var[] scores = new int[3];
+```
+### 宣言から代入までを同時で行う
+```java
+int scores[] = {1, 5, 10};
+// 宣言時に代入する値が確定していなければ使用できない
 ```
